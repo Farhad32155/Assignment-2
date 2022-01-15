@@ -9,8 +9,9 @@ body{
 .first-part, .bonus-part{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 133px;
+    grid-column-gap: 70px;
     margin-left: 70px;
+    
 }
 .first-title{
     margin-left: 70px;
@@ -21,7 +22,6 @@ body{
 }
 .influence-image{
     width: 440px;
-    height: 414px;
 }
 .fisrt-part > .influencer-header > h1{
     width: 582px;
@@ -34,6 +34,9 @@ body{
     padding: 10px 24px;
     border-radius: 41px;
 }
+.influencer-header a:hover {
+    background-image: linear-gradient(#d31132,#aa4354a4);
+  }
 .fa-arrow-right{
     margin-left: 5px;
 }
@@ -138,6 +141,7 @@ hr{
 footer{
     background-color: #0A0826;
     padding: 30px;
+    margin-top: 15px;
     
 }
 footer h2{
@@ -156,5 +160,97 @@ footer h4{
 .fab{
     margin-right: 16px;
     align-content: center;
+}
+
+/* media-quiries-for-responsiveness */
+/* Mobile-devices */
+@media only screen and (max-width:688px) {
+    body{
+        margin: 0;
+        padding: 0;
+        
+    }
+    /* .container{
+        width: 100%;
+    } */
+    .fisrt-part{
+        width: 75%;
+    }
+    .influencer-header p{
+        width: 330px;
+    }
+    .influencer-header{
+       margin-left: 15px;
+    }
+    .influencer-header h1{
+        width: 280px;
+    }
+    .influence-image img{
+        margin-top: 35px;
+        width: 220px;
+    }
+
+    .first-title{
+        text-align: center;
+    }
+    .first-part{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 0;
+        justify-content: center;
+        align-items: center;
+        padding-left: 175px;
+        
+    }
+    .company-logo{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        /* width: 70%; */
+    }
+    .container-logo{
+        width: 100%;
+    }
+    .collections{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .collection{
+        width: 320px;
+    }
+    .bonus-part{
+        grid-template-columns: repeat(1,1fr);
+        width: 350px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    .container-bonus{
+        width: 420px;
+    }
+    .bonus-header{
+        margin-bottom: 25px;
+    }
+    .bonus-header p{
+        width: 360px;
+    }
+    .bonus-header h1{
+        width: 380px;
+    }
+
+}
+/* Tbalet Devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .players, .courses{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
 
