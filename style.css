@@ -191,6 +191,10 @@ footer h4{
         padding-left: 175px;
         
     }
+    .button-middle{
+        display: flex;
+        justify-content: center;
+    }
     .company-logo{
         display: grid;
         grid-template-columns: repeat(3,1fr);
