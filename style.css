@@ -180,7 +180,7 @@ footer h4{
         width: 330px;
     }
     .influencer-header{
-       margin-left: 15px;
+       margin-left: 25px;
     }
     .influencer-header h1{
         width: 280px;
@@ -243,14 +243,35 @@ footer h4{
 }
 /* Tbalet Devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
-    .container{
+    .container-first{
         width: 100%;
     }
-    .blogs{
-        grid-template-columns: repeat(1,1fr);
+    .container-logo{
+        width: 100%;
     }
-    .players, .courses{
+    .container-popular{
+        width: 100%;
+    }
+    .container-bonus{
+        width: 100%;
+    }
+    .container-footer{
+        width: 100%;
+    }
+    .first-part{
+        margin-left: 0;
+    }
+    .influence-image img{
+        width: 200px;
+    }
+    .collections{
         grid-template-columns: repeat(2,1fr);
+        margin-left: 0;
     }
+    .collection{
+        width: 450px;
+    }
+
+    
 }
 
