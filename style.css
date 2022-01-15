@@ -58,13 +58,6 @@ hr{
 }
 
 /* popular-collection-part */
-.popular-collection{ 
-    
-    /* width: 1047px;
-    height: 1662px; */
-   
-    
-}
 .popular-collection h2{
     text-align: center;
     margin-top: 100px;
@@ -170,9 +163,6 @@ footer h4{
         padding: 0;
         
     }
-    /* .container{
-        width: 100%;
-    } */
     .fisrt-part{
         width: 75%;
     }
@@ -207,10 +197,9 @@ footer h4{
         justify-content: center;
         align-items: center;
         margin: 0;
-        /* width: 70%; */
     }
     .container-logo{
-        margin-left: 40px;
+        margin-left: 30px;
     }
     .container-logo{
         width: 100%;
@@ -243,7 +232,7 @@ footer h4{
         width: 380px;
     }
     footer{
-        width: 470px;
+        width: 395px;
     }
 
 }
@@ -254,7 +243,7 @@ footer h4{
     }
     .container-logo{
         width: 100%;
-        margin-left: 40px;
+        margin-left: 0;
     }
     .container-popular{
         width: 100%;
@@ -267,16 +256,30 @@ footer h4{
     }
     .first-part{
         margin-left: 0;
+        width: 200px;
+    }
+    .first-mobile{
+        width: 300px;
     }
     .influence-image img{
-        width: 200px;
+        width: 250px;
+    }
+    .influencer-header{
+        width: 350px;
+        margin-bottom: 40px;
     }
     .collections{
         grid-template-columns: repeat(2,1fr);
         margin-left: 0;
     }
     .collection{
-        width: 390px;
+        width: 285px;
+    }
+    .bonus-header{
+        width: 150px;
+    }
+    .influence-image-bonus img{
+        width: 200px;
     }
     footer{
         padding-right: 185px;
